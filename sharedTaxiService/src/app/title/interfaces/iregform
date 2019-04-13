@@ -1,0 +1,6 @@
+export interface IRegForm {
+  login?: string;
+  email: string;
+  password: string;
+  agree: boolean;
+}
