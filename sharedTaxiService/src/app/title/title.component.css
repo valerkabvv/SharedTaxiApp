@@ -2,3 +2,8 @@ button.btn.btn-primary.btn-lg{
   position: absolute;
   top: 40%;
 }
+span{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

@@ -6,9 +6,10 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {RegistrationComponent} from './registration/registration.component';
 import {ValidationServiceService} from './validation-service.service';
 import {ReactiveFormsModule} from '@angular/forms';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 @NgModule({
-  declarations: [TitleComponent, AuthorizationComponent, RegistrationComponent],
+  declarations: [TitleComponent, AuthorizationComponent, RegistrationComponent, TopBarComponent],
   imports: [
     CommonModule,
     NgbModule,
