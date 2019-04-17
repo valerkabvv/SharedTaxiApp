@@ -1,0 +1,4 @@
+export interface IRegForm {
+  login: string;
+  password: string;
+}

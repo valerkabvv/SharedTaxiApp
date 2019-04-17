@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup} from "@angular/forms";
+import {FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-title',
@@ -8,9 +8,18 @@ import {FormBuilder, FormGroup} from "@angular/forms";
 })
 export class TitleComponent implements OnInit {
 
+  ChangeFlag = false;
+  ShowFlag = false;
     constructor() { }
 
   ngOnInit() {
   }
 
+  onChange() {
+      this.ChangeFlag = !this.ChangeFlag;
+  }
+  onClick() {
+      this.ShowFlag = !this.ShowFlag;
+      this.ChangeFlag = false;
+  }
 }
